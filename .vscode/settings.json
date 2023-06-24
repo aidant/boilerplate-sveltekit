@@ -1,4 +1,7 @@
 {
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "files.exclude": {
     ".svelte-kit": true,
     ".vscode": true,
@@ -7,6 +10,6 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslintignore, .eslintrc.cjs, .gitignore, .npmrc, .prettierignore, .prettierrc, package-lock.json, svelte.config.js, tsconfig.json, vite.config.ts"
+    "package.json": ".eslintignore, .eslintrc.cjs, .gitignore, .npmrc, .prettierignore, .prettierrc, package-lock.json, postcss.config.js, svelte.config.js, tailwind.config.ts, tsconfig.json, vite.config.ts"
   }
 }
